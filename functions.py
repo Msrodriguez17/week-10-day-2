@@ -28,7 +28,8 @@ def greet():
 # Create the variable name, and store any name inside of it, so we can test the function with a name of your choosing.
 
 # You should only define the function and create the variable, you should not call the function afterwards.
-
+def welcome(name):
+  print("Welcome "+ name)
 
 
 ########################################################################################################################
@@ -38,3 +39,5 @@ def greet():
 # The name of the argument that this function must take is number. Create this variable and assign it any number.
 
 # You should only define the function and create the variable, you should not call the function afterwards.
+def square(number):
+  print( number ** 2)
